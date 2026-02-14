@@ -69,3 +69,24 @@ h2 {
     margin-top: 0;
     font-size: 22px;       /* Boro heading */
 }
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at center, #3a0ca3 0%, #000000 70%);
+}
+
+.qr-container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 
+        0 0 5px #a020f0,
+        0 0 10px #a020f0,
+        0 0 20px #6a0dad;
+}
