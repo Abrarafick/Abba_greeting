@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Abba ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="envelope" onclick="openLetter()">
+        <div class="flap"></div>
+        <div class="body"></div>
+    </div>
+
+    <div id="letter" class="letter hidden">
+        <h2>Dear Abba,</h2>
+        <p>
+            Tumi amar jibon er shobcheye boro ashirbad...
+            Tomar jonno ami sobsomoy doa kori.
+            Ami tomake onek bhalobashi ❤️
+        </p>
+    </div>
+
+</div>
+
+<script>
+function openLetter(){
+    document.querySelector(".envelope").style.display = "none";
+    document.getElementById("letter").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
